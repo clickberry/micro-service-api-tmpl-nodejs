@@ -1,16 +1,4 @@
 {
   "protocol": "http",
-  "port": "8080",
-  "facebook": {
-    "callbackURL": "/auth/facebook/callback"
-  },
-  "twitter": {
-    "callbackURL": "/auth/twitter/callback"
-  },
-  "google": {
-    "callbackURL": "/auth/google/callback"
-  },
-  "vk": {
-    "callbackURL": "/auth/vk/callback"
-  }
+  "port": "8080"
 }

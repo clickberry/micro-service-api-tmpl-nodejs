@@ -1,8 +1,8 @@
 {
-  "name": "clickberry-comments-api",
-  "version": "0.1.1",
+  "name": "clickberry-STUB_NAME-api",
+  "version": "0.0.0",
   "main": "app.js",
-  "description": "Comments micro-service on Node.js",
+  "description": "STUB_NAME micro-service on Node.js",
   "scripts": {
     "start": "node ./bin/www",
     "test": "mocha"
@@ -12,17 +12,17 @@
     "clickberry",
     "webservices",
     "node.js",
-    "auth",
+    "STUB_NAME",
     "api",
     "jwt"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/clickberry/comments-api-nodejs"
+    "url": "https://github.com/clickberry/STUB_NAME-api-nodejs"
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/clickberry/comments-api-nodejs/issues"
+    "url": "https://github.com/clickberry/STUB_NAME-api-nodejs/issues"
   },
   "dependencies": {
     "body-parser": "~1.12.4",
@@ -30,7 +30,6 @@
     "events": "^1.0.2",
     "express": "~4.12.4",
     "jsonwebtoken": "^5.0.4",
-    "moment": "^2.10.6",
     "mongoose": "^4.1.1",
     "morgan": "~1.5.3",
     "nconf": "^0.7.1",

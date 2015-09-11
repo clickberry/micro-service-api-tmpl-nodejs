@@ -1,1 +1,1 @@
-# comments-api-nodejs
+# STUB_NAME-api-nodejs

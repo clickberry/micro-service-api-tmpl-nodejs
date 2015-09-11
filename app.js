@@ -3,7 +3,6 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var passport = require('passport');
 var mongoose = require('mongoose');
-var moment = require('moment');
 
 var config = require('./config');
 var routes = require('./routes/index')(passport);
