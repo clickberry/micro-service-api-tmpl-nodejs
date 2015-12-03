@@ -26,14 +26,16 @@
   },
   "dependencies": {
     "body-parser": "~1.12.4",
+    "clickberry-config": "clickberry/config-nodejs.git#master",
+    "clickberry-http-errors": "clickberry/http-errors-nodejs.git#master",
+    "clickberry-nsq-publisher": "clickberry/nsq-publisher-nodejs.git#master",
     "debug": "~2.2.0",
     "events": "^1.0.2",
     "express": "~4.12.4",
     "jsonwebtoken": "^5.0.4",
+    "mocha": "^2.3.4",
     "mongoose": "^4.1.1",
     "morgan": "~1.5.3",
-    "nconf": "^0.7.1",
-    "nsqjs": "^0.7.6",
     "passport": "^0.2.2",
     "passport-jwt": "^1.1.0",
     "util": "^0.10.3"
