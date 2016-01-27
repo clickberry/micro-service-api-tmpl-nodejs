@@ -7,6 +7,21 @@ var mongoose = require('mongoose');
 var config = require('clickberry-config');
 var routes = require('./routes/index')(passport);
 
+var options = {
+    server: {
+        socketOptions: {
+            keepAlive: 1,
+            connectTimeoutMS: 30000
+        }
+    },
+    replset: {
+        socketOptions: {
+            keepAlive: 1,
+            connectTimeoutMS: 30000
+        }
+    }
+};
+mongoose.connect(config.get('mongodb:connection'), options);
 mongoose.connect(config.get('mongodb:connection'));
 
 require('./config/passport/jwt-passport')(passport);
